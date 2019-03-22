@@ -1,0 +1,79 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+img {
+  width: 35vw;
+  max-width: 231px;
+  position: relative;
+  border-radius: 56px;
+  filter: alpha(opacity=50);
+  opacity: 0.89;
+  box-shadow: hsla(280, 70%, 100%, .9) 11px 11px 90px;
+}
+
+body {
+  background: url("assets/intarzia-hatter.jpg") no-repeat center center fixed;
+}
+
+#cim {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.motto, .tartalom {
+  text-align: center;
+  font-size: 2.8vw;
+  color: #392017;
+  background-color: hsla(40, 70%, 35%, 0.7);
+  border-radius: 5px;
+  box-shadow: hsla(130, 10%, 70%, .8) 10px 10px 70px;
+  position: relative;
+  font-style: italic;
+  padding: 0.7rem 0.7rem;
+  margin: 0.7rem 0.5rem;
+  }
+.motto {
+  font-size: 3.5vw;
+}
+.tartalom-2 {
+  text-align: center;
+  font-size: 3.5vw;
+  color: maroon;
+  border-radius: 5px;
+  background-color: hsla(49, 70%, 35%, 0.7);
+  box-shadow: hsla(28, 10%, 70%, .8) 10px 10px 70px;
+  position: relative;
+  margin: 1.1rem 0.5rem;
+  padding: 1.1rem;
+}
+
+a:link {
+  font-size: 2.1rem;
+  color: gold;
+}
+
+a:hover {
+  color: beige;
+}
+
+.links {
+  position: relative;
+  margin: 0 1vw;
+  bottom: 28px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  padding: 1.4vw;
+}
