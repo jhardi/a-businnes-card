@@ -12,9 +12,19 @@ img {
   max-width: 231px;
   position: relative;
   border-radius: 56px;
-  filter: alpha(opacity=50);
-  opacity: 0.89;
+  padding: 3px;
   box-shadow: hsla(280, 70%, 100%, .9) 11px 11px 90px;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(40%);
+  filter: alpha(opacity=50);
+  opacity: 0.57;
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(14%);
+  filter: alpha(opacity=50);
+  opacity: 0.77;
 }
 
 body {
@@ -30,7 +40,7 @@ body {
   text-align: center;
   font-size: 2.8vw;
   color: #392017;
-  background-color: hsla(40, 70%, 35%, 0.7);
+  background-color: hsla(40, 70%, 35%, 0.77);
   border-radius: 5px;
   box-shadow: hsla(130, 10%, 70%, .8) 10px 10px 70px;
   position: relative;
@@ -56,17 +66,18 @@ body {
 a:link {
   font-size: 2.1rem;
   color: gold;
+  transition: all 0.3s ease-in-out;
 }
 
 a:hover {
-  color: beige;
+  color: #fafaeb;
 }
 
 .links {
-  position: relative;
+  position: absolute;
   margin: 0 1vw;
-  bottom: 28px;
-  text-align: center;
+  bottom: 0.5vw;
+  left: 37%;
 }
 
 ul {
