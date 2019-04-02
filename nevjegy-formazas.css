@@ -72,7 +72,7 @@ a:hover {
 }
 
 .links {
-  position: absolute;
+  position: relative;
   margin: 0 1vw;
   bottom: 0.5vw;
   left: 37%;
