@@ -32,41 +32,34 @@ body {
   background: url("assets/intarzia-hatter.jpg") no-repeat center center fixed;
 }
 
-#cim {
-  text-align: center;
-  font-size: 1.5rem;
-}
-
 .motto, .tartalom {
   text-align: center;
-  font-size: 2.8vw;
+  font-size: 2.5vw;
   color: #392017;
-  background-color: hsla(40, 70%, 35%, 0.77);
+  background-color: hsla(47, 70%, 35%, 0.9);
   border-radius: 5px;
   box-shadow: hsla(130, 10%, 70%, .8) 10px 10px 70px;
   position: relative;
   font-style: italic;
-  padding: 0.7rem 0.7rem;
-  margin: 0.7rem 0.5rem;
+  padding: 0.1rem 0.7rem;
+  margin: 0 0.5rem;
   }
 
 .motto {
-  font-size: 3.5vw;
+  font-size: 3.2vw;
 }
 .tartalom-2 {
   text-align: center;
-  font-size: 3.5vw;
+  font-size: 2.8vw;
   color: maroon;
   background-color: hsla(49, 70%, 35%, 0.7);
+  border-radius: 5px;
   box-shadow: hsla(28, 10%, 70%, .8) 10px 10px 70px;
   position: relative;
-  margin: 1.4rem 0.5rem;
-  padding: 2rem;
+  margin: 0.9rem 0.5rem;
+  padding: 0.4vw;
 }
 
-.intro {
-  margin: 4vw;
-}
 
 a:link {
   font-size: 2.1rem;
