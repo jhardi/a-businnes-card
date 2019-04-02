@@ -8,7 +8,7 @@
 }
 
 img {
-  width: 35vw;
+  width: 40vw;
   max-width: 231px;
   position: relative;
   border-radius: 56px;
@@ -30,6 +30,7 @@ img:hover {
 
 body {
   background: url("assets/intarzia-hatter.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 .motto, .tartalom {
@@ -38,7 +39,7 @@ body {
   color: #392017;
   background-color: hsla(47, 70%, 35%, 0.9);
   border-radius: 5px;
-  box-shadow: hsla(130, 10%, 70%, .8) 10px 10px 70px;
+  box-shadow: hsla(130, 10%, 70%, .5) 10px 10px 49px;
   position: relative;
   font-style: italic;
   padding: 0.1rem 0.7rem;
@@ -73,9 +74,7 @@ a:hover {
 
 .links {
   position: relative;
-  margin: 0 1vw;
-  bottom: 0.5vw;
-  left: 40%;
+  text-align: center;
 }
 
 ul {
